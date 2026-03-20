@@ -316,6 +316,8 @@ git commit -m "feat: describe your change"
 # 4. Push and open a Pull Request
 git push origin feature/your-feature-name
 ```
+
+---
 ## 👤 Author
 
 Ahmad Albasha
@@ -323,8 +325,6 @@ Ahmad Albasha
 [![GitHub](https://img.shields.io/badge/GitHub-ahmad--albasha-181717?style=flat-square&logo=github)](https://github.com/ahmad-albasha)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/ahmad-a-9a0373123)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:ahmad-albasha09@hotmail.com)
-
----
 
 ---
 
