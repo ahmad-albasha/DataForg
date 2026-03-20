@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1096</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Roboto</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* ==================== الخلفية ==================== */
+QWidget#Form {
+    background-image: url(&quot;C:/Users/ahmad/Downloads/Futuristic data engineering background for a software named _DataForge_._Visual metaphor of forging data_ digital streams being transformed, melted, and reshaped into structured forms._High-tech UI style, cyber (1).jpg&quot;);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; /* لتملأ الصورة كامل الفورم */
+    color: #ECEFF4;
+    font-family: &quot;Roboto&quot;, &quot;Arial&quot;, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;;
+    font-size: 10.5pt;
+}
+
+/* ==================== الكرت الترحيبي ==================== */
+
+/* ==================== الكرت الترحيبي ==================== */
+QFrame#card {
+    background-color: rgba(15, 23, 42, 0.85);
+    border-radius: 14px;
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* ==================== العنوان الرئيسي ==================== */
+QLabel#titleLabel, QLabel#titleLabel_2 {
+    font-size: 28pt; /* أكبر وأكثر بروزا */
+    font-weight: 700;
+    font-family: &quot;Roboto&quot;, &quot;Arial&quot;, &quot;Segoe UI&quot;;
+    color: #E5E9F0;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+/* ==================== الوصف أسفل العنوان ==================== */
+QLabel#label {
+    font-size: 12pt;
+    color: #CBD5F5;
+    font-family: &quot;Roboto&quot;, &quot;Arial&quot;, &quot;Segoe UI&quot;;
+}
+
+/* ==================== الأزرار الأساسية ==================== */
+QPushButton#startButton {
+    background-color: #2563EB !important;
+    color: white !important;
+    border-radius: 8px;
+    padding: 10px 22px;
+    border: none;
+    font-size: 11pt;
+    font-weight: 600;
+}
+QPushButton#startButton:hover {
+    background-color: #1D4ED8 !important;
+}
+QPushButton#startButton:pressed {
+    background-color: #1E3A8A !important;
+}
+
+/* ==================== زر ثانوي (اختياري) ==================== */
+QPushButton#secondaryButton {
+    background-color: transparent !important;
+    border-radius: 8px;
+    border: 1px solid #64748B;
+    color: #E2E8F0 !important;
+    padding: 6px 16px;
+}
+QPushButton#secondaryButton:hover {
+    background-color: rgba(15, 23, 42, 0.7) !important;
+}
+
+/* ==================== حقول الإدخال ==================== */
+QLineEdit {
+    background-color: rgba(15, 23, 42, 0.9);
+    border: 1px solid #475569;
+    border-radius: 6px;
+    padding: 4px 8px;
+    color: #E5E9F0;
+    selection-background-color: #2563EB;
+    selection-color: #FFFFFF;
+}
+QLineEdit:focus {
+    border: 1px solid #3B82F6;
+}
+
+/* ==================== ComboBox ==================== */
+QComboBox {
+    background-color: rgba(15, 23, 42, 0.9);
+    border: 1px solid #475569;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+QComboBox:focus {
+    border: 1px solid #3B82F6;
+}
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+QComboBox::down-arrow {
+    image: none;
+}
+
+/* ==================== Tooltip ==================== */
+QToolTip {
+    background-color: #111827;
+    color: #E5E9F0;
+    border: 1px solid #4B5563;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* ==================== ScrollBar ==================== */
+QScrollBar:vertical {
+    background: rgba(0,0,0,0.1);
+    width: 10px;
+    margin: 2px 0 2px 0;
+}
+QScrollBar::handle:vertical {
+    background: #374151;
+    min-height: 24px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #4B5563;
+}
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: none;
+    height: 0px;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_browse">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Brows</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Select the file :</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>440</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>120</y>
+     <width>721</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_path">
+   <property name="geometry">
+    <rect>
+     <x>182</x>
+     <y>56</y>
+     <width>491</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
